@@ -1,0 +1,15 @@
+{
+  "name": "punjab-mart-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Punjab Mart website with multilingual AI inventory assistant",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.8.0",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "express": "^5.1.0"
+  }
+}
